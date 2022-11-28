@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Outfit&display=swap");
+body {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  font-family: Outfit;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.soft-blue {
+  color: hsl(215, 51%, 70%);
+}
+.cyan {
+  color: hsl(178, 100%, 50%);
+}
+
+.border-radius {
+  border-radius: 1em;
+}
+
+.card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 640px;
+  width: 400px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+}
+
+.card-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 640px;
+  width: 400px;
+}
+
+.card-title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.card-description {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.card-price {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 0.25rem;
+}
+
+.avatar-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.avatar-img {
+  width: 4rem;
+  border: 2px hsl(0, 0%, 100%);
+  margin-right: 0.5rem;
+}
+
+.avatar-title {
+  font-size: 1.125rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.horizontal-line {
+  width: 90%;
+  border-color: hsl(228, 45%, 44%);
+  margin-bottom: 1rem;
+}
+
+.card-title:hover,
+.avatar-title:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 1s;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgb(0, 255, 255, 0.3);
+  transition: 0.5s ease;
+  opacity: 0;
+  height: 44%;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
